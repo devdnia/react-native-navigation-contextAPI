@@ -1,4 +1,5 @@
 import React from 'react'
+import Icon from 'react-native-vector-icons/Ionicons';
 import { Button, Text, TouchableOpacity, View } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import { styles } from '../themes/appTheme';
@@ -36,6 +37,7 @@ export const Pagina1Screen = ({ navigation }: Props) => {
             nombre: 'Iván',
           })}
         >
+          <Icon name="man-outline" size={ 30 } color='white'/>
           <Text style={styles.botonGrandeTexto}>Iván</Text>
         </TouchableOpacity>
 
@@ -49,6 +51,7 @@ export const Pagina1Screen = ({ navigation }: Props) => {
             nombre: 'Rosa',
           })}
         >
+          <Icon name="woman-outline" size={ 30 } color='white'/>
           <Text style={styles.botonGrandeTexto}>Rosa</Text>
         </TouchableOpacity>
       </View>
