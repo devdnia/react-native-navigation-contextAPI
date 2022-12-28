@@ -3,7 +3,7 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 import Icon from 'react-native-vector-icons/Ionicons';
 import { ChatScreen } from '../screens/ChatScreen';
 import { ContactScreen } from '../screens/ContactScreen';
-import { AlbumScreen } from '../screens/AlbunScreen';
+import { AlbumScreen } from '../screens/AlbumScreen';
 import { colors } from '../themes/appTheme';
 
 

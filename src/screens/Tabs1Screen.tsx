@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import Icon from 'react-native-vector-icons/Ionicons';
 import { Text, View } from 'react-native'
-import { styles, colors } from '../themes/appTheme';
+import { styles} from '../themes/appTheme';
+import { TouchableIcon } from '../components/TouchableIcon';
 
 
 export const Tabs1Screen = () => {
@@ -16,36 +16,11 @@ export const Tabs1Screen = () => {
     <View style={styles.globalMargin}>
       <Text style={styles.title}>Iconos</Text>
       <Text>
-
-        <Icon
-          name="add-circle-outline"
-          size={30}
-          color={colors.primary}
-        />
-
-        <Icon
-          name="alarm-outline"
-          size={30}
-          color={colors.primary}
-        />
-
-        <Icon
-          name="battery-charging-outline"
-          size={30}
-          color={colors.primary}
-        />
-
-        <Icon
-          name="calendar-outline"
-          size={30}
-          color={colors.primary}
-        />
-
-        <Icon
-          name="desktop-outline"
-          size={30}
-          color={colors.primary}
-        />
+        <TouchableIcon iconName="add-circle-outline"/>
+        <TouchableIcon iconName="alarm-outline"/>
+        <TouchableIcon iconName="battery-charging-outline"/>
+        <TouchableIcon iconName="calendar-outline"/>
+        <TouchableIcon iconName="desktop-outline"/>
       </Text>
     </View>
   )
